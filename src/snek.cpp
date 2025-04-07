@@ -209,8 +209,7 @@ int main() {
         GameRender(playerName);
         UserInput();
         UpdateGame();
-        // creating a delay for according to the chosen
-        // difficulty
+        // creating a delay for according to the chosen difficulty
         Sleep(dfc);
         if (isGameOver) {
             GameInit();
